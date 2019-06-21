@@ -13,7 +13,7 @@ function myLoop () {
           text.innerHTML = (i-1) + " bottles of beer on the wall!";
           count = 1;
           i--;
-          if (i == -1) i = 99;
+          if (i == 0) i = 99;
       }
       count++;  
       myLoop();
