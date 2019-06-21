@@ -1,0 +1,21 @@
+
+#root {
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#text {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    transition: opacity .5s ease-in-out;
+}
+
+body {
+    background-color: purple;
+}
