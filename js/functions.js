@@ -7,6 +7,7 @@ text.innerHTML = "<button class='play'>Play</button>";
 
 let play = document.querySelector('.play');
 play.addEventListener('click', function() {
+   text.innerHTML = "";
    myLoop();
 });
 
