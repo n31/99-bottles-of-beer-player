@@ -1,8 +1,14 @@
 let text = document.getElementById('text');
 
 let i = 99;
-
 let count = 1;
+
+text.innerHTML = "<button class='play'>Play</button>";
+
+let play = document.querySelector('.play');
+play.addEventListener('click', function() {
+   myLoop();
+});
 
 function myLoop () {
    setTimeout(function () {
@@ -19,5 +25,3 @@ function myLoop () {
       myLoop();
    }, 2000)
 }
-
-myLoop();   
