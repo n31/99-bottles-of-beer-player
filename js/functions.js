@@ -3,7 +3,7 @@ let text = document.getElementById('text');
 let i = 99;
 let count = 1;
 
-text.innerHTML = "<button class='play'>Play</button>";
+text.innerHTML = "<button class='play' style='width: 240px; height: 40px; border: none; border-radius: 20px; font-size: 20px; background-color: orange; color: white'>Play</button>";
 
 let play = document.querySelector('.play');
 play.addEventListener('click', function() {
